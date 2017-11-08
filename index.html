@@ -3,45 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Kartojimas</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css"></link>
 </head>
 <body>
-
-    <table border="1">
-        <thead>
+    <div class="container">
+        <table>
+            <thead class="table-head">
             <tr>
-                <th>Automobilio numeris</th>
+                <th class="text-left">Automobilio numeris</th>
                 <th>Kelias (m)</th>
                 <th>Laikas (s)</th>
                 <th>Greitis (km/h)</th>
             </tr>
-        </thead>
-        <tbody>
+            </thead>
+            <tbody class="table-body">
             <tr>
-                <td>ADE:987</td>
-                <td>10000</td>
-                <td>1800</td>
-                <td>98</td>
+                <td class="text-left">ADE:987</td>
+                <td class="text-center">10000</td>
+                <td class="text-center">1800</td>
+                <td class="text-center">98</td>
             </tr>
             <tr>
-                <td>COB:206</td>
-                <td>5000</td>
-                <td>900</td>
-                <td>65</td>
+                <td class="text-left">COB:206</td>
+                <td class="text-center">5000</td>
+                <td class="text-center">900</td>
+                <td class="text-center">65</td>
             </tr>
             <tr>
-                <td>JPM:109</td>
-                <td>15400</td>
-                <td>1500</td>
-                <td>120</td>
+                <td class="text-left">JPM:109</td>
+                <td class="text-center">15400</td>
+                <td class="text-center">1500</td>
+                <td class="text-center">120</td>
             </tr>
-        </tbody>
-        <tfoot>
             <tr>
-                <td colspan="3" align="right"><b>Viso</b>: </td>
-                <td align="center">3</td>
+                <td class="text-left">ADE:987</td>
+                <td class="text-center">10000</td>
+                <td class="text-center">1800</td>
+                <td class="text-center">98</td>
             </tr>
-        </tfoot>
-    </table>
-
+            </tbody>
+            <tfoot class="table-footer">
+            <tr>
+                <td colspan="3" class="text-right" id="total-text"><b>Viso:</b></td>
+                <td class="text-center" id="total">3</td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
 </body>
 </html>
