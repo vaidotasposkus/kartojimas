@@ -1,75 +1,94 @@
-html, body{
-    height: 100%;
+/* line 1, D:/Projects/kartojimas/scss/style.scss */
+html, body {
+  height: 100%;
 }
 
-body{
-    margin: 0;
-    background-color: #c0c0c0;
+/* line 5, D:/Projects/kartojimas/scss/style.scss */
+body {
+  margin: 0;
+  background-color: #c0c0c0;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    position: relative;
-    background-color: #ffffff;
-    box-sizing: border-box;
-    padding: 20px;
+/* line 10, D:/Projects/kartojimas/scss/style.scss */
+table, tr, td, th {
+  border-collapse: collapse;
+  border-width: 1px;
+  border-color: #000000;
+  border-style: solid;
 }
 
-.container table{
-    width: 100%;
+/* line 17, D:/Projects/kartojimas/scss/style.scss */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
-table, tr, td, th{
-    border-collapse: collapse;
-    border-width: 1px;
-    border-color: #000000;
-    border-style: solid;
+/* line 25, D:/Projects/kartojimas/scss/style.scss */
+.container table {
+  width: 100%;
 }
 
-.container table th{
-    padding: 10px;
+/* line 28, D:/Projects/kartojimas/scss/style.scss */
+.container table th {
+  padding: 10px;
 }
 
-.container .table-head{
-    background-color: #a9a9a9;
-    color: #ffffff;
-    font-size: 14px;
+/* line 33, D:/Projects/kartojimas/scss/style.scss */
+.container .table-head {
+  background-color: #a9a9a9;
+  color: #ffffff;
+  font-size: 14px;
 }
 
-.container .table-body tr:nth-child(2n){
-    background-color: #f5f5dc;
+/* line 41, D:/Projects/kartojimas/scss/style.scss */
+.container .table-body tr:nth-child(2n) {
+  background-color: #f5f5dc;
 }
 
-.container .table-body tr:hover{
-    background-color: #dcdcdc;
+/* line 44, D:/Projects/kartojimas/scss/style.scss */
+.container .table-body tr:hover {
+  background-color: #dcdcdc;
 }
 
-.container .table-body td{
-    padding: 5px;
-}
-.container .table-footer td{
-    padding: 10px;
+/* line 49, D:/Projects/kartojimas/scss/style.scss */
+.container .table-body td {
+  padding: 5px;
 }
 
-.container .table-footer #total-text{
-    font-size: 18px;
-    padding-right: 15px;
-}
-.container .table-footer #total{
-    font-size: 18px;
-    font-weight: 700;
+/* line 55, D:/Projects/kartojimas/scss/style.scss */
+.container .table-footer td {
+  padding: 10px;
 }
 
-.text-center{
-    text-align: center;
+/* line 59, D:/Projects/kartojimas/scss/style.scss */
+.container .table-footer #total-text {
+  font-size: 18px;
+  padding-right: 15px;
 }
 
-.text-right{
-    text-align: right;
+/* line 64, D:/Projects/kartojimas/scss/style.scss */
+.container .table-footer #total {
+  font-size: 18px;
+  font-weight: 700;
 }
 
-.text-left{
-    text-align: left;
+/* line 72, D:/Projects/kartojimas/scss/style.scss */
+.text-center {
+  text-align: center;
 }
 
+/* line 76, D:/Projects/kartojimas/scss/style.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 80, D:/Projects/kartojimas/scss/style.scss */
+.text-left {
+  text-align: left;
+}
+
+/*# sourceMappingURL=../css/style.map */
